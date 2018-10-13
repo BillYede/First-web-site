@@ -2,7 +2,12 @@
 header,body,html,h1{
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family:  vogue;
+}
+
+@font-face{
+    font-family: vogue;
+    src : url(../fonts/Vogue.ttf);
 }
 
 header,body,html{
@@ -11,14 +16,11 @@ header,body,html{
 }
 
 header{
-    background: url("https://s3.amazonaws.com/rockcontent-bucket/images/production/86135-conheca-a-curiosa-origem-dos-cafes-mais-caros-do-mundo.jpg?1493828908") no-repeat center center;
+    background: url("https://images.alphacoders.com/815/815034.jpg") no-repeat center center;
     background-size: cover;
     color: white;
-    box-shadow: 0 4px 30px #000;
+    
 }
-
-
-
 .wrapper{
     display: table;
     width: 100%;
@@ -41,11 +43,15 @@ h1{
 .navbar-default{
     background-color: #fff;
     border-color: #E7E7E7;
-    box-shadow: 0 4px 30px solid;
+    box-shadow: 0 4px 10px solid;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #000;
+}
+
+.navbar .navbar-default > ul > li{
+    margin-right: 50px;
 }
 
 #moi{
@@ -65,7 +71,10 @@ hr{
 .container2{
     max-width: 1500px;
     text-align: center;
-    background-color: red;
+}
+
+img{
+    border-radius: 5px;
 }
 
 .container3{

@@ -34,7 +34,7 @@ header{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 5em;
 }
 
 .subtitle{
@@ -54,29 +54,27 @@ h1{
     margin-right: 50px;
 }
 
-#moi{
+.moi2{
     text-align: center;
+    text-decoration: underline;
+}
+
+.photo{
+    border-radius: 100px;
+    width: 110px;
+   margin-left: 42em;
 }
 
 hr{
     color: black;
 }
 
-.container1{
-    text-align: center;
-    max-width: 800px;
-    box-shadow: 
-}
 
-.container2{
-    max-width: 1500px;
-    text-align: center;
-}
+
+
 
 img{
     border-radius: 5px;
 }
 
-.container3{
-    width: 600px;
-}
+

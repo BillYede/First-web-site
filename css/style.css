@@ -15,8 +15,13 @@ header,body,html{
     height: 100%;
 }
 
+p{
+  font-size: 2rem;
+  
+}
+
 header{
-    background: url("https://images.alphacoders.com/815/815034.jpg") no-repeat center center;
+    background: url("http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png") no-repeat center center;
     background-size: cover;
     color: white;
     
@@ -33,17 +38,21 @@ header{
     vertical-align: middle;
 }
 
-h1{
-    font-size: 5em;
+.subtitle{
+    font-size: 2em;
+    color: #000;
 }
 
-.subtitle{
-    font-size: 1.5em;
+.logo{
+    font-size: 5em;
+    color: #000;
 }
+
 .navbar-default{
     background-color: #fff;
     border-color: #E7E7E7;
-    box-shadow: 0 4px 10px solid;
+    
+    
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -54,27 +63,57 @@ h1{
     margin-right: 50px;
 }
 
+.bill{
+    margin-right: 600px;
+    color: white;
+}
+
+.billw{
+    border-radius: 100px;
+    margin-left: 35em;
+    width: 120px;
+}
+
+.container-fluid{
+    max-width: 1500px;
+}
+
+.prog{
+    margin-right: 22em;
+}
+
+.html{
+    margin-left: 30em;
+}
+
+.java{
+    margin-bottom: 25px;
+    padding-right: 30px;
+}
+
+.jquery{
+    padding-right: 30px;
+}
+
 .moi2{
     text-align: center;
-    text-decoration: underline;
+    padding-bottom: 20px;
 }
 
-.photo{
-    border-radius: 100px;
-    width: 110px;
-   margin-left: 42em;
+.mois{
+    text-align: center;
 }
-
-hr{
-    color: black;
-}
-
-
 
 
 
 img{
     border-radius: 5px;
 }
+
+.reseaux{
+    margin-left: 38em;
+}
+
+
 
 

@@ -51,9 +51,11 @@ header{
 .navbar-default{
     background-color: #fff;
     border-color: #E7E7E7;
-    
-    
 }
+
+navbar-default {
+        width: 100%;
+    }
 
 .navbar-default .navbar-nav > li > a {
     color: #000;
@@ -104,8 +106,6 @@ header{
     text-align: center;
 }
 
-
-
 img{
     border-radius: 5px;
 }
@@ -113,6 +113,24 @@ img{
 .reseaux{
     margin-left: 38em;
 }
+
+.container3{
+    text-align: center;
+    font-size: 2em;
+}
+
+.follow{
+    text-align: center;
+}
+.follow > p{
+    text-align: center;
+}
+
+hr{
+    width: 5%;
+    border: 1px solid black;
+}
+
 
 
 
